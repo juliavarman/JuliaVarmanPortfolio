@@ -1,0 +1,30 @@
+body{
+    font-family: 'Times', cursive;
+background-image: url(https://media.pitchfork.com/photos/5929b556ea9e61561daa6dca/16:9/w_1280,c_limit/2e5f0170.jpg);
+background-repeat: no-repeat, repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+h1{ 
+text-align:center; }
+
+#lineOne{
+    color:purple;
+
+}
+
+#lineTwo{
+    font-size: 40px;
+}
+#lineThree{
+    font-family: 'Gelasio', serif;
+    font-size: 90px;
+    background-color:aqua;
+}
+
+img { 
+    position: absolute; 
+    bottom: 40px; 
+    right: 40px; 
+}

@@ -1,0 +1,28 @@
+body{
+
+}
+
+h1{ 
+text-align:center; }
+
+#lineOne{
+    color:purple;
+
+}
+
+#lineTwo{
+    font-size: 40px;
+}
+#lineThree{
+    font-family: 'Gelasio', serif;
+    font-size: 90px;
+    background-color:aqua;
+}
+
+img { 
+
+    position: relative;
+    align-items: flex-end; 
+    bottom: 40px; 
+    right: 140px; 
+}

@@ -1,0 +1,232 @@
+
+
+
+
+body{
+background-color: black;
+
+}
+
+
+
+
+h2{
+position: absolute;
+top: 5px;
+left: 70px;
+color: whitesmoke;
+
+
+}
+
+ 
+
+
+/* -webkit-transform: rotate(360deg) scale(2);
+  transform: rotate(360deg) scale(2);*/*/
+  cursor: pointer;
+ }
+
+
+
+
+ #container-1 {
+position: absolute;
+bottom: 0;
+
+ }
+
+#cloudthree{
+ position:absolute;
+ right:550px;
+ top:10px;
+
+
+}
+
+#cloudfour{
+ position:absolute;
+ margin-left:500px;
+ top:400px;
+
+}
+
+#cloudfive{
+ position:absolute;
+ margin-left:800px;
+ top:600px;
+
+}
+
+#cloud2 {
+ 	position: absolute;
+ 	top: 45vh;
+ 	left: 80vw;
+  }
+
+
+
+
+
+.image{
+	position: absolute;
+ 	top: 66vh;
+ 	left: 80vw;
+ 	height: 300px;
+ 	width: 200px;
+}
+
+.image2{
+	position: absolute;
+ 	top: 40vh;
+ 	left: 5vw;
+ 	height: 300px;
+ 	width: 200px;
+
+}
+
+
+#cloud {
+ 	position: absolute;
+ 	top: 20vh;
+ 	left: 5vw;
+}
+
+
+#purpleflower {
+ 	position: absolute;
+ 	top: -5vh;
+ 	left: 80vw;
+  }
+
+
+
+#blueflower {
+ 	position: absolute;
+ 	top: 50vh;
+ 	left: 5vw;
+}
+
+#cherries {
+ 	position: absolute;
+ 	top: 60vh;
+ 	left: 60vw;
+
+ }
+
+#pinkflower {
+ 	position: absolute;
+ 	top: 10vh;
+ 	left: 50vw;
+
+ }
+
+ #flower2 {
+ 	position: absolute;
+ 	top: 60vh;
+ 	left: 32vw;
+ }
+
+ #face {
+ 	position: absolute;
+ 	top: 20vh;
+ 	left: 28vw;
+  }
+
+  #flower {
+ 	position: absolute;
+ 	top: 25vh;
+ 	left: 64vw;
+  }
+
+  #stem {
+ 	position: absolute;
+ 	top: 40vh;
+ 	left: 60vw;	
+  }
+
+#black{
+position: absolute;
+ 	top: 3vh;
+ 	left: 3.5vw;
+ 	height:30px;
+ 	width: 175px;
+}
+
+
+#black2{
+position: absolute;
+ 	top: 55vh;
+ 	left: 32vw;
+ 	height:30px;
+ 	width: 550px;
+
+}
+
+
+#flower:hover, #face:hover, #flower2:hover, #pinkflower:hover, #cherries:hover, #blueflower, #purpleflower, #cloud:hover, #cloudthree:hover, #cloudfour:hover, #cloudfive:hover{ 
+	cursor: default; 
+ 	animation: spin 3s infinite;
+
+
+
+
+
+	 
+}
+
+@keyframes spin {
+	0% { 
+	transform: rotate(0deg); 
+	}
+
+	100% { 
+	transform: rotate(720deg); 
+	transition: all .1s ease-in-out 1s;
+	}
+}
+
+#container-1{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+	width: 100vw;
+} 
+
+#container-3 {
+	margin: auto;
+	margin-left:-460px;
+} 	
+
+#container-2 {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 55vh;
+	justify-content: center;
+	align-content: center;
+	width: 100vw;
+}
+
+a {
+	padding: 5px;
+	text-align: center;
+	color:whitesmoke;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
